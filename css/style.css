@@ -12,7 +12,6 @@ body {
   width: 1200px;
   display: flex;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 .main {
   display: flex;
@@ -20,14 +19,24 @@ body {
   width: 85%;
 }
 .menu {
-  width: 15%;
-  background-color: aqua;
-  padding: 10px 20px 0px;
+  width: 20%;
+  background-color: #1a8286;
+  border: #f1f1f1 solid;
+  border-radius: 10px;
+  padding: 5px 5px 5px;
+  color: white;
 }
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .header {
-  background-color: rgb(5, 108, 108);
-  min-height: 150px;
+  display: flex;
 }
+
 .content {
   background-color: white;
   min-height: 300px;
@@ -36,4 +45,9 @@ body {
 .footer {
   background-color: rgb(99, 56, 240);
   min-height: 150px;
+}
+.artHome {
+  max-width: 900px;
+  max-height: 300px;
+  object-fit: contain;
 }
