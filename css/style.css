@@ -11,20 +11,26 @@ body {
 .wrapper {
   width: 1200px;
   display: flex;
-  margin: 0 auto;
+  margin: 5px;
 }
 .main {
   display: flex;
   flex-flow: column;
-  width: 85%;
+  width: 80%;
 }
 .menu {
-  width: 20%;
+  width: 15%;
   background-color: #1a8286;
   border: #f1f1f1 solid;
   border-radius: 10px;
-  padding: 5px 5px 5px;
+  padding: 5px;
+  justify-content: start;
   color: white;
+}
+
+.menu li {
+  list-style-type: disclosure-closed;
+  align-items: center;
 }
 
 .menu a {
@@ -34,7 +40,8 @@ body {
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .content {
@@ -46,8 +53,9 @@ body {
   background-color: rgb(99, 56, 240);
   min-height: 150px;
 }
-.artHome {
-  max-width: 900px;
-  max-height: 300px;
-  object-fit: contain;
+.photo {
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
 }
